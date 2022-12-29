@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const favCarList = ({id,imagePath,title,t1,trim,favoriteCars}) =>{
+const favCarList = ({id,imagePath,title,t1,trim}) =>{
 
     return(
         <article className='single-tour' >

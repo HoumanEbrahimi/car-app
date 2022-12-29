@@ -1,0 +1,18 @@
+{
+    "dealership":[
+    {
+        "dealer":"https://www.tesla.com/en_ca/model3"  
+    }
+    ,{
+        "dealer":"https://www.tesla.com/en_ca/models"
+    }
+    ,{
+        "dealer":"https://www.tesla.com/en_ca/modelx"
+    },
+    {
+        "dealer":"https://www.mercedes-benz.ca/en/vehicles/class/c-class/sedan?gclid=CjwKCAiA76-dBhByEiwAA0_s9SefM29jdC57Zcm96JO02Ks2O7MbV-nIbux8f2uuw8WEOHI_31fDvRoCWb4QAvD_BwE&gclsrc=aw.ds&ds_rl=1254833&ds_rl=1253797&ef_id=X2DiGgAAA9hVfv5i:20221228224628:s"
+    },
+    {
+        "dealer":"https://www.lexus.ca/lexus/en/automobiles/rx?gclid=CjwKCAiA76-dBhByEiwAA0_s9VrloCIyFsxkkTETtGUUdYmlIjQwy3YuzWMBP9acUcelvN1ZFt-K6BoCR8kQAvD_BwE&gclsrc=aw.ds"
+    }
+    ]}

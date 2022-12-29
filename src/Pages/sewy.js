@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import FavoriteCars from './favcarlist.js';
+import FavoriteCars from './favcarlist';
 
 
-const sewy = ({carData}) => {
+
+const sewy = ({favCar}) => {
     return(
         <div>
         <h2 className="section" >
               Selected Cars
             </h2>
 
-        {carData.map((car)=> {
-          return <FavoriteCars key={car.id}{...car}>
-          </FavoriteCars>;
+          {favCar.map((car)=> {
+          return <FavoriteCars key={car.id}{...car}/>;
         }
       
       )};
