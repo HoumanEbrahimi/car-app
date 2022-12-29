@@ -1,24 +1,19 @@
 import React, { useState } from 'react';
 
-const CarList = ({id,name,image,info,price,removeCars,favoriteCars}) =>{
+const CarList = ({id,imagePath,title,t1,removeCars,favoriteCars}) =>{
     const [readInfo, setReadInfo] = useState(false);
     return(
         
         <article className='single-tour'>
 
-            <img src={image} alt={name}/>
+            <img src={imagePath} alt={title}/>
             <footer>
                 <div className='tour-info'>
-                    <h4> {name} </h4>
-                    <h4 className='tour-price'> ${price}</h4>
+                    <h4> {title} </h4>
+                    
                     
                 </div>
-                <p> 
-                {readInfo ? info : `${info.substring(0, 200)}...`}
-                                    <button onClick={ ()=>setReadInfo(!readInfo)}>
-                        {readInfo? 'hide':'show more'};
-                    </button>
-                </p>
+  
                 <button className="delete-btn" onClick={()=>removeCars(id)}>
                     Not Interested 
                 </button>

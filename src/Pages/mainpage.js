@@ -15,18 +15,11 @@ const MainPage =()=>{
             <br>
             </br>
             <h2> Use this webpage to enhance your searching journey for finding your ideal car</h2>
-        {Tesla.map((tesla)=> {
-          return(
-            <div key={tesla.id}>
-                
-                <img src={tesla.imagePath} alt={tesla.id}/>
-                console.log(Tesla);
-                
-            </div>
-          );
-        } 
-        )};
-
+          
+          <h2>
+            Filter the car brand you want to search for 
+          </h2>
+        
 
         </div>
     );

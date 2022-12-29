@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
 
-const favCarList = ({id,name,image,info,price,favoriteCars}) =>{
+const favCarList = ({id,imagePath,title,t1,trim,favoriteCars}) =>{
 
     return(
         <article className='single-tour' >
 
-            <img src={image} alt={name}/>
+            <img src={imagePath} alt={title}/>
             <footer>
                 <button className="dealership-btn"> 
                     Dealership
                 </button>
                 <div className='tour-info'>
-                    <h4> {name} </h4>
-                    <h4 className='tour-price'> ${price}</h4>
-                    <p>
-                        {info}
-                    </p>
+                    <h4> {title} </h4>
+                    <h4 className='tour-price'> {trim}</h4>
+
                 </div>
                 
             </footer>

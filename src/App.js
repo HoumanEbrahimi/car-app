@@ -17,7 +17,7 @@ import Sewy from './Pages/sewy.js';
 
 
 
-const url = 'https://course-api.com/react-tours-project'
+const url = 'http://localhost:8000/teslas'
 
 function App() {
   const [carData,setDCarData]=useState([]);
