@@ -2,17 +2,32 @@ import CarList from './carlist.js';
 import "./search.css";
 import apps from '../App';
 import React, { useState } from 'react';
+import Reset from './Reset.js';
+
+const url = 'http://localhost:8000/teslas'
 
 const Searching = ({carData,removeCars,favoriteCars,setDcarData}) => {
   const [a,b]=useState('')
 
+  const fetchCars = async () => {    
 
+    try{
+      const response=await fetch(url);
+      const carData=await response.json();
+      setDcarData(carData);
+      console.log(carData);
+
+    }
+    catch(error){
+      console.data(error);
+    }
+
+}
   const handleChange =(e)=> {
     b(e.target.value);
   };
 
   const handleSearchChange = (e)=>{
-      console.log(carData);
       if(a.trim().length!==0){
         
         const filterCars=carData.filter(data=>data.Brand.includes(a))
@@ -20,11 +35,10 @@ const Searching = ({carData,removeCars,favoriteCars,setDcarData}) => {
 
       }
       else{
-
-        setDcarData(carData)
+        fetchCars();
         console.log("empty bro")
       }
-    
+
 
       
 }
