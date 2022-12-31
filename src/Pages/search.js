@@ -15,7 +15,6 @@ const Searching = ({carData,removeCars,favoriteCars,setDcarData}) => {
       const response=await fetch(url);
       const carData=await response.json();
       setDcarData(carData);
-      console.log(carData);
 
     }
     catch(error){

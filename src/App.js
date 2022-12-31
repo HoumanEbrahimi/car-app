@@ -25,7 +25,7 @@ function App() {
     try{
       favCar.push(carData.filter(car=>car.id===id));
       setFav(favCar); 
-      console.log(favCar);
+      console.log(favCar[0][0].imagePath);
       removeCars(id);
     }
     catch(error){

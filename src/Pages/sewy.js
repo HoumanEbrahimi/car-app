@@ -10,11 +10,11 @@ const sewy = ({favCar}) => {
               Selected Cars
             </h2>
 
-          {favCar.map((car)=> {
-          return <FavoriteCars key={car.id}{...car}/>;
+          {favCar.map((car)=>car.map((specific)=>{
+          return <FavoriteCars key={specific.id}{...specific}/>;
         }
       
-      )};
+      ))};
     </div>
     );
 }

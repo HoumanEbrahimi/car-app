@@ -6,8 +6,8 @@ const Favorites = (carData)=>{
         <div className="body_search">
           <h2 className="section" >
                 Selected Cars
-              </h2>
-  
+                
+          </h2>
   
           {carData.map((car)=> {
             return <FavoriteCars key={car.id}{...car}>
