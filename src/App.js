@@ -20,7 +20,7 @@ const url = 'http://localhost:8000/teslas'
 
 function App() {
   const [carData,setDCarData]=useState([]);
-  const [favCar,setFav]=useState([[]])
+  const [favCar,setFav]=useState([])
   const favoriteCars= (id)=>{
     try{
       favCar.push(carData.filter(car=>car.id===id));
