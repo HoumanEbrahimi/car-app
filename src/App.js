@@ -20,14 +20,13 @@ const url = 'http://localhost:8000/teslas'
 
 function App() {
   const [carData,setDCarData]=useState([]);
-  const [favCar,setFav]=useState([])
+  const [favCar,setFav]=useState([[]])
   const favoriteCars= (id)=>{
     try{
-      const favCar=carData.filter(car=>car.id===id);
+      favCar.push(carData.filter(car=>car.id===id));
       setFav(favCar); 
+      console.log(favCar);
       removeCars(id);
-      console.log(favCar.length);  
-      console.log(favCar); 
     }
     catch(error){
       console.data(error);
@@ -45,7 +44,7 @@ function App() {
       const response=await fetch(url);
       const carData=await response.json();
       setDCarData(carData);
-      setFav(carData);
+      //setFav(carData);
       console.log(carData);
 
     }
