@@ -25,11 +25,7 @@ const MainPage =({carData,setDcarData,favCar})=>{
           <h2>
             Search for a car brand
           </h2>
-        <form>
-          Search
-          <input onChange={handleSearchChange}/>          
 
-        </form>
 
         </div>
     );

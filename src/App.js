@@ -15,6 +15,7 @@ import Db from './DBs/list.json';
 import Favorites from './Pages/favsearch';
 import Cars from './Pages/favcarlist'
 import Sewy from './Pages/sewy.js';
+import emailjs from 'emailjs-com';
 
 const url = 'http://localhost:8000/teslas'
 
@@ -58,9 +59,7 @@ useEffect(()=>{
   fetchCars();
 },[])
 
-useEffect(() => {
-  localStorage.setItem('favCar', JSON.stringify(favCar));
-}, [favCar]);
+
 
   return (
 
@@ -79,8 +78,8 @@ useEffect(() => {
     </BrowserRouter>
       <main>
 
-    </main> 
-      </div>
+      </main> 
+     </div>
 
 
   );

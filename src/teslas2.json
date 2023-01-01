@@ -6,8 +6,7 @@
         "title": "Tesla Model 3 Performance",
         "model year": "2022",
         "trim": "standard",
-        "Brand": "tesla",
-        "Dealership":"https://www.tesla.com/en_ca/model3"
+        "Brand": "tesla"
     
     }
     ,{
@@ -15,20 +14,16 @@
         "imagePath":"https://tesla-cdn.thron.com/delivery/public/thumbnail/tesla/2b585eac-984d-4ca3-8cc5-31d437f695fd/bvlatuR/std/590x506/models_01?lcid=2b084dd2-ade1-49ec-a470-45363112146c&v=47&dpr=113",
         "title": "Tesla model S",
         "model year": "2022",
-        "trim": "Plaid",
-        "Brand": "tesla",
-        "Dealership":"https://www.tesla.com/en_ca/models"
-
+        "trim": "standard",
+        "Brand": "tesla"
   
     },{
         "id":"3",
         "imagePath":"https://tesla-cdn.thron.com/delivery/public/thumbnail/tesla/e73bce04-c568-4d61-bb40-9ad0dfdb5d4c/bvlatuR/std/590x506/ModelX_02?lcid=9511c1b4-08d9-4f10-a6a0-83734ffd00f1&v=31&dpr=113",
-        "title": "Tesla model X",
+        "title": "Tesla model Y",
         "model year": "2022",
-        "trim": "Standard Plus",
-        "Brand": "tesla",
-        "Dealership":"https://www.tesla.com/en_ca/modelx"
-
+        "trim": "standard",
+        "Brand": "tesla"
   
     },
     {
@@ -37,9 +32,7 @@
       "title": "Mercedes C300",
       "model year": "2022",
       "trim": "standard",
-      "Brand": "mercedes",
-      "Dealership":"https://www.mercedes-benz.ca/en/vehicles/model/c-class/sedan/c300w4"
-
+      "Brand": "mercedes"
     },
     {
       "id":"5",
@@ -47,9 +40,8 @@
       "title": "Lexus RX350",
       "model year": "2023",
       "trim": "Luxuty Package",
-      "Brand": "lexus",
-      "Dealership":"https://www.lexus.ca/lexus/en/automobiles/rx"
-
+      "Brand": "lexus"
+  
     }
     ]}
  
