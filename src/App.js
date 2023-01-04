@@ -16,6 +16,8 @@ import Favorites from './Pages/favsearch';
 import Cars from './Pages/favcarlist'
 import Sewy from './Pages/sewy.js';
 import emailjs from 'emailjs-com';
+import Contact from './Pages/contact.js'
+
 
 const url = 'http://localhost:8000/teslas'
 
@@ -26,7 +28,6 @@ function App() {
     try{
       favCar.push(carData.filter(car=>car.id===id));
       setFav(favCar); 
-      console.log(favCar[0][0].imagePath);
       removeCars(id);
     }
     catch(error){
@@ -72,6 +73,8 @@ useEffect(()=>{
           <Route path="/carlist" element={<Bruh carData={carData} removeCars={removeCars} favoriteCars={favoriteCars} setDcarData={setDCarData}/>
 } />
           <Route path="/sewy" element={<Sewy favCar={favCar}/>} />
+          <Route path="/contact" element={<Contact/>} />
+
 
         </Route>
       </Routes>

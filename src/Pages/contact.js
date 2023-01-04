@@ -7,7 +7,7 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_tblf3vk', e.target, '0SxWog8GT0430vm8f')
+    emailjs.sendForm('service_kkyw1f6', 'template_tblf3vk', e.target, '0SxWog8GT0430vm8f')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -17,7 +17,12 @@ const ContactUs = () => {
   };
 
   return (
+ 
     <form ref={form} onSubmit={sendEmail}>
+           <h1>
+        Please provide any suggestions on how to make this website better 
+      </h1>
+
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>

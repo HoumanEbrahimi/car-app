@@ -14,6 +14,8 @@ const CarAppNavBar =() => {
             <Link to="/" className="navLink">    Home   </Link>
             <Link to="/carlist" className="navLink">   Search   </Link>
             <Link to="/sewy" className="navLink">  Bookmarks </Link>
+            <Link to="/contact" className="navLink">  Contact </Link>
+
 
           </Nav>
         </Navbar.Collapse>

@@ -7,7 +7,8 @@
         "model year": "2022",
         "trim": "standard",
         "Brand": "tesla",
-        "Dealership":"https://www.tesla.com/en_ca/model3"
+        "Dealership":"https://www.tesla.com/en_ca/model3",
+        "email":"houman.ebrahimi@mail.utoronto.ca"
     
     }
     ,{
@@ -17,7 +18,8 @@
         "model year": "2022",
         "trim": "Plaid",
         "Brand": "tesla",
-        "Dealership":"https://www.tesla.com/en_ca/models"
+        "Dealership":"https://www.tesla.com/en_ca/models",
+        "email":"houman.ebrahimi@mail.utoronto.ca"
 
   
     },{
@@ -27,7 +29,8 @@
         "model year": "2022",
         "trim": "Standard Plus",
         "Brand": "tesla",
-        "Dealership":"https://www.tesla.com/en_ca/modelx"
+        "Dealership":"https://www.tesla.com/en_ca/modelx",
+        "email":"houman.ebrahimi@mail.utoronto.ca"
 
   
     },
@@ -38,7 +41,9 @@
       "model year": "2022",
       "trim": "standard",
       "Brand": "mercedes",
-      "Dealership":"https://www.mercedes-benz.ca/en/vehicles/model/c-class/sedan/c300w4"
+      "Dealership":"https://www.mercedes-benz.ca/en/vehicles/model/c-class/sedan/c300w4",
+      "email":"houman.ebrahimi@mail.utoronto.ca"
+
 
     },
     {
@@ -48,7 +53,9 @@
       "model year": "2023",
       "trim": "Luxuty Package",
       "Brand": "lexus",
-      "Dealership":"https://www.lexus.ca/lexus/en/automobiles/rx"
+      "Dealership":"https://www.lexus.ca/lexus/en/automobiles/rx",
+      "email":"houman.ebrahimi@mail.utoronto.ca"
+
 
     }
     ]}
